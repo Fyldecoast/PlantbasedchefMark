@@ -14595,4 +14595,18 @@ html {
   background: #22c55e;
 }
 
+/* Force Gallery Visibility on Mobile */
+@media (max-width: 768px) {
+  #gallery, .gallery-container, .gallery-grid {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    min-height: 300px;
+  }
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+  }
+}
+
 /*# sourceMappingURL=app_globals_css_bad6b30c._.single.css.map*/

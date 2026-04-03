@@ -94,54 +94,26 @@
   </nav>
 
   <!-- Hero -->
-  <section id="hero" class="relative w-full h-screen overflow-hidden pt-16">
-    <div class="absolute inset-0">
-      <video autoplay muted loop playsinline preload="metadata" class="absolute inset-0 w-full h-full object-cover" poster="./assets/food-cooking-background.jpg">
-        <source src="./assets/Flame.mp4" type="video/mp4" />
-      </video>
-      <div class="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background/80"></div>
-      <div class="absolute inset-0 bg-gradient-to-r from-background/50 to-transparent"></div>
+<section id="hero" class="relative w-full h-screen flex items-center justify-center overflow-hidden">
+  <div class="relative z-10 text-center px-4 max-w-4xl">
+    <h1 class="font-bold tracking-tight leading-tight text-white">
+      <span class="block text-2xl md:text-4xl mb-2 opacity-90">Hi…</span>
+      <span class="block text-6xl md:text-8xl lg:text-9xl mb-4 text-primary">I’m Mark</span>
+      <span class="block text-xl md:text-3xl font-medium text-balance">
+        I've dedicated half of my life to mastering plant-based cooking.
+      </span>
+    </h1>
+    
+    <div class="mt-8 space-y-2">
+       <p class="text-lg md:text-xl text-white/90">Plant-based food: all the taste, none of the compromise.</p>
+       <p class="text-sm md:text-base text-white/70">Weddings, festivals, and pop-ups across the UK</p>
     </div>
 
-      <div class="relative h-full flex flex-col items-center justify-center px-4 sm:px-6 md:px-8 z-10">
-  <div class="text-center space-y-5 sm:space-y-7 transition-all duration-1000 max-w-[95vw] sm:max-w-none opacity-100 translate-y-0">
-
-    <h1 class="font-bold tracking-tight text-pretty leading-[1.05]">
-
-      <span class="hero-eyebrow text-fluid-xl sm:text-fluid-2xl md:text-fluid-3xl">
-        Hi…
-      </span><br />
-
-      <span class="hero-title text-fluid-5xl sm:text-fluid-6xl md:text-fluid-7xl lg:text-fluid-8xl">
-        I’m Mark
-      </span><br />
-
-      <span class="hero-subtitle text-fluid-2xl sm:text-fluid-3xl md:text-fluid-4xl">
-        I've dedicated half of my life to mastering plant based cooking.
-      </span>
-
-    </h1>
-
-  </div>
-</div>
-
-
-        <p class="text-fluid-base sm:text-fluid-lg text-white/90 max-w-2xl mx-auto text-balance px-2">
-          Plant-based food  all the taste, none of the compromise
-        </p>
-
-        <p class="text-fluid-sm sm:text-fluid-base text-white/80 max-w-xl mx-auto px-2">
-           Weddings, festivals, supper clubs and pop-ups across the UK
-        </p>
-
-
-        <div class="pt-6 sm:pt-8 flex justify-center">
-          <button id="heroBook" data-scroll="contact" class="group px-6 sm:px-8 py-3.5 sm:py-4 bg-primary text-primary-foreground font-semibold rounded-full hover:shadow-2xl hover:shadow-primary/50 transition-all duration-300 transform hover:scale-105 active:scale-95 glow-accent min-h-[48px] text-base sm:text-lg">
-            Book Now
-            <svg class="inline-block ml-2 group-hover:translate-y-1 transition-transform" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </button>
+    <div class="mt-10">
+      <button class="bg-primary text-primary-foreground px-8 py-4 rounded-full text-lg font-bold hover:scale-105 transition-transform shadow-lg shadow-primary/20">
+        Book Now
+      </button>
+      
         </div>
       </div>
     </div>

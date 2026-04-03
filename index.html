@@ -94,39 +94,49 @@
   </nav>
 
   <!-- Hero -->
-<section id="hero" class="relative w-full h-screen flex items-center justify-center overflow-hidden">
-  <div class="relative z-10 text-center px-4 max-w-4xl">
-    <h1 class="font-bold tracking-tight leading-tight text-white">
-      <span class="block text-2xl md:text-4xl mb-2 opacity-90">Hi…</span>
-      <span class="block text-6xl md:text-8xl lg:text-9xl mb-4 text-primary">I’m Mark</span>
-      <span class="block text-xl md:text-3xl font-medium text-balance">
-        I've dedicated half of my life to mastering plant-based cooking.
-      </span>
-    </h1>
-    
-    <div class="mt-8 space-y-2">
-       <p class="text-lg md:text-xl text-white/90">Plant-based food: all the taste, none of the compromise.</p>
-       <p class="text-sm md:text-base text-white/70">Weddings, festivals, and pop-ups across the UK</p>
-    </div>
+<section id="hero" class="relative w-full h-screen overflow-hidden">
+  <div class="absolute inset-0 z-0">
+    <video autoplay muted loop playsinline preload="metadata" class="w-full h-full object-cover" poster="./assets/food-cooking-background.jpg">
+      <source src="./assets/Flame.mp4" type="video/mp4" />
+    </video>
+    <div class="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background/80"></div>
+    <div class="absolute inset-0 bg-black/30"></div> </div>
 
-    <div class="mt-10">
-      <button class="bg-primary text-primary-foreground px-8 py-4 rounded-full text-lg font-bold hover:scale-105 transition-transform shadow-lg shadow-primary/20">
-        Book Now
-      </button>
-      
-        </div>
+  <div class="relative z-10 h-full flex flex-col items-center justify-center px-4 text-center">
+    <div class="max-w-4xl space-y-6">
+      <h1 class="font-bold tracking-tight text-white leading-[1.1]">
+        <span class="block text-3xl md:text-5xl opacity-90 mb-2">Hi…</span>
+        <span class="block text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-primary drop-shadow-sm">I’m Mark</span>
+        <span class="block text-xl sm:text-2xl md:text-4xl mt-4 font-medium text-balance">
+          I've dedicated half of my life to mastering plant-based cooking.
+        </span>
+      </h1>
+
+      <div class="space-y-2">
+        <p class="text-lg md:text-xl text-white/90">Plant-based food: all the taste, none of the compromise.</p>
+        <p class="text-sm md:text-base text-white/70">Weddings, festivals, and pop-ups across the UK</p>
+      </div>
+
+      <div class="pt-8">
+        <button id="heroBook" data-scroll="contact" class="group px-8 py-4 bg-primary text-primary-foreground font-bold rounded-full hover:shadow-2xl hover:shadow-primary/50 transition-all duration-300 transform hover:scale-105 active:scale-95 text-lg">
+          Book Now
+          <svg class="inline-block ml-2 group-hover:translate-y-1 transition-transform" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
       </div>
     </div>
 
-    <div class="absolute bottom-4 sm:bottom-8 left-1/2 transform -translate-x-1/2 z-20 animate-bounce hidden xs:flex">
-      <div class="flex flex-col items-center gap-1 sm:gap-2">
-        <p class="text-xs sm:text-sm text-foreground/60">Scroll to explore</p>
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="text-primary sm:w-5 sm:h-5">
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce hidden xs:block">
+      <div class="flex flex-col items-center gap-2">
+        <p class="text-xs text-white/60">Scroll to explore</p>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" class="text-primary">
           <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
      <div class="section-divider" aria-hidden="true"></div>
   <!-- About -->

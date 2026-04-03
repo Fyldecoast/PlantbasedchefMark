@@ -495,6 +495,15 @@ if (form) {
     else goTo(index);
   });
 
+  window.addEventListener('scroll', () => {
+  const nav = document.getElementById('nav');
+  if (window.scrollY > 50) {
+    nav.classList.add('bg-background/80', 'backdrop-blur-md', 'border-b', 'border-white/10');
+  } else {
+    nav.classList.remove('bg-background/80', 'backdrop-blur-md', 'border-b', 'border-white/10');
+  }
+});
+
   goTo(0);
 })();
 

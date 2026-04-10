@@ -16,10 +16,10 @@ To see the site's high-end "feel" features and accessibility in action, view the
  videos in this section!!!!!!!!
  
 
-* **[Keyboard Navigation and ARIA Walkthrough](./documentation/keyboard%20nav.mp4):** Demonstrates full keyboard pathing, focus trapping in modals, and ARIA state changes for screen readers (LO3).
+* **[Keyboard Navigation and ARIA Walkthrough](./documentation):** Demonstrates full keyboard pathing, focus trapping in modals, and ARIA state changes for screen readers (LO3).
 
   
-* **[Mobile UX and Interaction Demo](./documentation/mobile%20view%209.mp4):** Showcases smooth scrolling logic, responsive navigation transitions, and touch-event optimisation for mobile devices.
+* **[Mobile UX and Interaction Demo](./documentation):** Showcases smooth scrolling logic, responsive navigation transitions, and touch-event optimisation for mobile devices.
 
   
 * **[Desktop Interaction and UI Flow](./documentation/desktop%20view9.mp4):** A walkthrough of the desktop experience, including the dynamic menu switching and gallery lightbox interaction.

@@ -19,10 +19,10 @@ To see the site's high-end "feel" features and accessibility in action, view the
 * **[Keyboard Navigation](./documentation):** Demonstrates full keyboard pathing, focus trapping in modals, and ARIA state changes for screen readers (LO3).
 
   
-* **[Mobile UX and Interaction Demo](./documentation):** Showcases smooth scrolling logic, responsive navigation transitions, and touch-event optimisation for mobile devices.
+* **[Mobile view loading screen](./documentation):** Showcases smooth scrolling logic, responsive navigation transitions, and touch-event optimisation for mobile devices.
 
   
-* **[Desktop Interaction and UI Flow](./documentation/desktop%20view9.mp4):** A walkthrough of the desktop experience, including the dynamic menu switching and gallery lightbox interaction.
+* **[Desktop loading screen](./documentation/desktop%20view9.mp4):** A walkthrough of the desktop experience, including the dynamic menu switching and gallery lightbox interaction.
 
   
 * **[Gallery Interaction Logic](./documentation/01-47-45.mp4):** Highlights the specific logic used to bridge the desktop lightbox and mobile slider models.
